@@ -60,3 +60,13 @@
 /drush
 /drupal.phar
 /drupal
+
+
+.ddev/
+.editorconfig
+.gitattributes
+learning/
+
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib

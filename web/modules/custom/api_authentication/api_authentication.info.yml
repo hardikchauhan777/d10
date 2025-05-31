@@ -1,0 +1,5 @@
+name: 'API Authentication'
+type: module
+description: 'Provides configurable API authentication methods (OAuth 1.0, OAuth 2.0, and Basic Authentication).'
+package: Custom
+core_version_requirement: ^10

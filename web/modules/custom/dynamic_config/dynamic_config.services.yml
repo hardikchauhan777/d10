@@ -1,0 +1,6 @@
+services:
+  dynamic_config.connector_manager:
+    class: Drupal\dynamic_config\Plugin\Connector\ConnectorManager
+    arguments: ['@container.namespaces', '@module_handler', '@cache.discovery']
+    tags:
+      - { name: default_plugin_manager }

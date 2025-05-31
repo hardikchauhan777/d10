@@ -1,0 +1,5 @@
+name: 'Dynamic Config Module'
+type: module
+description: 'Provides a dynamic, reusable configuration form that supports multiple plugins or services.'
+package: Custom
+core_version_requirement: ^10

@@ -1,0 +1,7 @@
+dynamic_config.settings:
+  path: '/admin/config/dynamic-config'
+  defaults:
+    _form: '\Drupal\dynamic_config\Form\ConnectorConfigForm'
+    _title: 'Dynamic Config Settings'
+  requirements:
+    _permission: 'administer site configuration'

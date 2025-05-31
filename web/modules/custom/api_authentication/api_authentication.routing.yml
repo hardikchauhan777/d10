@@ -1,0 +1,15 @@
+api_authentication.settings:
+  path: '/admin/config/services/api-authentication'
+  defaults:
+    _form: '\Drupal\api_authentication\Form\AuthConfigForm'
+    _title: 'API Authentication Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+api_authentication.test:
+  path: '/api-authentication/test'
+  defaults:
+    _controller: '\Drupal\api_authentication\Controller\ApiTestController::test'
+    _title: 'API Authentication Test'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,4 @@
+services:
+  api_authentication.manager:
+    class: Drupal\api_authentication\Service\AuthenticationManager
+    arguments: ['@config.factory']
