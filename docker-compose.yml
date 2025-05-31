@@ -1,6 +1,7 @@
 services:
   drupal:
-    image: my-drupal-image
+    image: drupal:10-apache
+    container_name: drupal
     ports:
       - "80:80"
     volumes:
